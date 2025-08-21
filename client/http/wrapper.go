@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-
 	cmlog "github.com/fabxu/log"
+	"github.com/go-resty/resty/v2"
 )
 
 type Wrapper struct {

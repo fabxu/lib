@@ -4,15 +4,15 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"strings"
-	"time"
-
 	cmlog "github.com/fabxu/log"
 	"github.com/go-sql-driver/mysql"
+	"github.com/golang-migrate/migrate/v4"
 	"github.com/jackc/pgconn"
 	"gorm.io/gorm"
 	gormlog "gorm.io/gorm/logger"
 	"gorm.io/plugin/dbresolver"
+	"strings"
+	"time"
 
 	// initialize db
 	_ "github.com/golang-migrate/migrate/v4/database/mysql"

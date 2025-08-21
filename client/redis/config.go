@@ -2,11 +2,11 @@ package redis
 
 import (
 	"fmt"
+	"github.com/fabxu/lib/client/util"
+	"github.com/go-redis/redis/v8"
 	"os"
 	"strconv"
 	"strings"
-
-	"github.com/fabxu/lib/client/util"
 )
 
 const (

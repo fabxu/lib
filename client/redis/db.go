@@ -2,10 +2,10 @@ package redis
 
 import (
 	"context"
+	cmlog "github.com/fabxu/log"
+	"github.com/go-redis/redis/v8"
 	"strings"
 	"time"
-
-	cmlog "github.com/fabxu/log"
 )
 
 func NewDB(ctx context.Context, cfg Config) *redis.Client {
